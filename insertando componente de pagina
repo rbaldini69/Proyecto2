@@ -2,7 +2,18 @@
 <html>
 <head>
 	<title></title>
-	
+	<style type="text/css">
+#caja
+{
+
+	background: #E0ECF8;
+	width: 50px;
+	height: 50px;
+	border: 10px
+	margin:50 auto;
+	padding: 10em;
+	border-radius: 10px;
+}	
 </head>
 <body>
 <div id="caja">
