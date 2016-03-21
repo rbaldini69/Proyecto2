@@ -13,7 +13,20 @@
 	margin:50 auto;
 	padding: 10em;
 	border-radius: 10px;
-}	
+}
+body{
+	background: red;
+}
+h1,h2{
+	font-family: arial;
+	color:0080ff;
+	
+	
+	
+}
+
+	</style>
+
 </head>
 <body>
 <div id="caja">
