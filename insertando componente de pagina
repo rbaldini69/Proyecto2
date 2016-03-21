@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+<div id="caja">
+<form>
+<h1>Login</h1>
+<input type="text" name="nombreUsuario" value="Nombre usuario"></input><br><br> 
+<input type="password" name="pass" value="1234678"></input> <br><br>
+<input type="submit" name="aceptar" value="aceptar"></input> <br><br>
+<input type="submit" name="olvidoClave" value="Olvide la clave"></input>
+</div>
+</form>
+</body>
+</html>
