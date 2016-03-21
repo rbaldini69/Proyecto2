@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Login | Inicio</title>
 	<style type="text/css">
 #caja
 {
-
 	background: #E0ECF8;
 	width: 250px;
 	height: 250px;
 	border: 10px;
 	border-top: 6px;
-	margin:50 auto;
-	
-	
+	margin: 0 auto 0 auto;
+	margin-top: 25%;
 }
 body{
 	background: #EFFBEF;
@@ -28,19 +27,29 @@ Input[type=submit]
 	border-color: red;
 	color: green;
 }
+
+input{
+	margin-left: 40px;
+	width: 65%;
+	border-radius: 3px;
+}
+
 	</style>
 
 
 </head>
+
 <body>
-<div  id="caja">
-<form>
-<h1>Login</h1>
-<input type="text" name="nombreUsuario" value="Nombre usuario"></input><br><br> 
-<input type="password" name="pass" value="1234678"></input> <br><br>
-<input type="submit" name="aceptar" value="aceptar"></input> <br><br>
-<input type="submit" name="olvidoClave" value="Olvide la clave"></input>
-</div>
-</form>
+	<div  id="caja">
+		<form>
+			<h1>Login</h1>
+				<input type="text" name="nombreUsuario" placeholder="Nombre de usuario"></input></br></br>
+				<input type="password" name="pass" placeholder="Contraseña"></input> </br></br>
+				
+				<input type="submit" name="aceptar" value="Ingresar"></input> </br></br>
+				<input type="submit" name="olvidoClave" value="Olvide la clave"></input>
+		</form>
+	</div>
+		
 </body>
 </html>
